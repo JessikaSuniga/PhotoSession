@@ -1,0 +1,58 @@
+.contato{
+    margin: 140px 0 30px 0;
+}
+
+.subtitulo:after {
+    content: "";
+    display: block;
+    width: 400px;
+    height: 2px;
+    background:#BF7B60;
+    margin: 50px auto ;
+}
+
+input, textarea{
+    width: 90%;
+    border: 2px solid #BF7B60;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 12px 60px ;
+    outline: none;
+    font-size: 14px;
+    color: #D7CBB1;
+}
+
+.contato button{
+    margin: 0 0 30px 60px;
+    background: none;
+    outline: none;
+}
+
+.contato h3{
+    margin: 10px 0 5px 120px;
+    color: #BF7B60;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.contato p{
+    margin: 0 0 15px 120px;
+    font-size: 18px;
+    color: #BF7B60;
+}
+
+.redes-contato img{
+    width: 25px;
+}
+
+.redes-contato {
+    text-align: right;
+    margin: 10px 200px 0 0;
+}
+
+.redes-contato li{
+    padding: 7px;
+    border: 3px solid #BF7B60;
+    border-radius: 50px;
+    display: inline-block;
+} 

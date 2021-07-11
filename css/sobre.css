@@ -1,0 +1,40 @@
+/* Historia */
+.historia{
+    margin-top: 120px;
+    width: 700px;
+}
+
+.historia p{
+    font-size: 18px;
+    color: #C89A88;
+    text-align: center;
+    line-height: 30px;
+}
+
+.historia:after {
+    content: "";
+    display: block;
+    width: 400px;
+    height: 2px;
+    background:#BF7B60;
+    margin: 50px auto ;
+}
+
+/* Equipe */
+
+.estudio:before {
+    content: "";
+    display: block;
+    width: 400px;
+    height: 2px;
+    background:#BF7B60;
+    margin: 50px auto;
+}
+
+.estudio li{
+    margin-bottom: 20px;
+}
+
+.footer-sobre {
+    margin-top: 50px;
+}

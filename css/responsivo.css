@@ -1,0 +1,155 @@
+/* Estilo para tablets */
+@media only screen and (min-width: 788px) and (max-width: 979px){
+
+    /* galeria */
+    .redes-galeria {
+        margin: 10px 105px 0 0;
+    }
+
+    .fotografia-galeria{
+        height: 950px;
+    }
+
+    .filmagem-galeria {
+        height: 640px;
+    }
+
+}/*Final Tablet*/
+
+/* Estilo para Smartphone */
+@media only screen and (max-width: 787px){
+    /* header */
+    .header {
+        position: relative;
+        padding-bottom: 0;
+    }
+
+    .header_menu {
+        text-align: center;
+    }
+    
+    .header_menu ul li{
+        display: inline-block;
+        margin: auto;
+        padding: 3px;
+        margin-top: 10px;
+    }
+
+    .header h1{
+        text-align: center;
+    }
+
+    /* introdução */
+
+    .introducao {
+        margin: 0 auto;
+        height: 180px;
+    }
+
+    /* citacao */
+
+    .quote p{
+        margin: -30px 0 30px 0;
+    }
+
+    .quote:after, .call:after,
+    .quote:after, .historia:after, .estudio:before,
+    .subtitulo:after  {
+        width: 200px;
+        margin: 60px 0 20px 50px;
+    }
+
+    .call {
+        margin-bottom: 30px;
+    }
+
+    .filmagem:before, .quote:before{
+        width: 200px;
+        margin: 0 0 60px 50px;
+    }
+
+
+    .historia:after{
+        width: 200px;
+        margin: 60px 0 20px 75px;
+    }
+
+    /* fotografia */
+    .foto-par{
+        top: -100px;
+    }
+    
+    .foto-impar {
+        top: -60px;  
+    }
+
+    .footer-contato{
+        margin-left: 0;
+        text-align: center;
+        padding: 20px 0 0 0;
+    }
+    
+    .footer-redes {
+        margin-right: 25px;
+        text-align: center;
+    }
+
+    /* galeria */
+    .fotografia-galeria ul li,
+    .filmagem-galeria ul li, 
+    .fotografia ul li, 
+    .filmagem ul li{
+        margin-left: 0;
+    }
+
+    .fotografia-galeria{
+        margin: 0 0 40px 0;
+    }
+
+    .filmagem-galeria {
+        height: 680px;
+    }
+    
+
+    input, textarea{
+        padding: 10px;
+        margin: 12px 0 ;
+    }
+
+    .orcamento button{
+        margin: 0 0 30px 0;
+    }
+
+    .orcamento p, .orcamento h3{
+        margin: 0 0 10px 0;
+    }
+
+    .redes-galeria, .redes-contato {
+        text-align: left;
+        margin: 10px 0 0 0;
+    }
+
+    /* sobre */
+    .historia{
+        margin-top: 40px;
+        width: 350px;
+    }
+
+    .equipe, .estudio li{
+        margin-left: 0;
+    }
+
+    /* contato */
+    .contato {
+        margin: 50px 0 0 0;
+
+     }
+    .contato p, .contato h3{
+        margin: 0 0 15px 0;
+    }
+    
+    .contato button{
+        margin: 0 0 30px 0;
+    }
+    
+}
